@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div style="text-align: center">
+
+    <h1>Setting</h1>
+    <form method="post" th:action="@{/setting/save}" th:object="${settings}" novalidate="novalidate">
+        <table>
+            <tr>
+                <th><label>Languages</label></th>
+                <td>
+                    <select th:field="*{languages}">
+                        <option th:each="language : ${language}" th:text="${language}" th:value="${language}"></option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th><label>Page Size</label></th>
+                <td>
+                    <select th:field="*{pageSize}">
+                        <option th:each="page : ${pageSize}" th:text="${page}" th:value="${page}"></option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th><label>Spams Filter</label></th>
+                <td>
+                    <input type="checkbox" th:default="false" th:field="*{spamsFilter}" th:value="true">Enable
+                    Spams Filter
+                </td>
+            </tr>
+            <tr>
+                <th><label>Signature</label></th>
+                <td>
+                    <textarea th:field="*{signature}" th:value="*{signature}"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit" value="Save">Save</button>
+                    <a th:href="@{/setting}" role="button">Cancle</a>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+<h1></h1>
+</body>
+</html>

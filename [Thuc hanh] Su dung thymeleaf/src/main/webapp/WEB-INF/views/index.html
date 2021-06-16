@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="/layout :: head">
+<!--    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">-->
+</head>
+<body>
+<div class="container">
+    <h2>CUSTOMER</h2>
+
+    <ul class="responsive-table">
+        <li class="table-header" style="width: 30px;">
+            <div class="col col-1" ><a th:href="@{/customer/create}">Add</a></div>
+        </li>
+        <li class="table-header">
+            <div class="col col-1">Name</div>
+            <div class="col col-2">Email</div>
+            <div class="col col-3">Address</div>
+            <div class="col col-4">Edit</div>
+            <div class="col col-4">Delete</div>
+            <div class="col col-4">View</div>
+        </li>
+        <li class="table-row" th:each="row, rowStat : ${customers}">
+            <div class="col col-1" th:text="${row.name}"></div>
+            <div class="col col-2" th:text="${row.email}"></div>
+            <div class="col col-3" th:text="${row.address}"></div>
+            <div class="col col-4"><a th:href="@{/customer/{id}/edit(id=${row.id})}">Edit</a></div>
+            <div class="col col-4"><a th:href="@{/customer/{id}/delete(id=${row.id})}">Delete</a></div>
+            <div class="col col-4"><a th:href="@{/customer/{id}/view(id=${row.id})}">View</a></div>
+        </li>
+    </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>View Customer</h3>
+<p>
+    <a th:href="@{/setting}">
+        Back to setting
+    </a>
+</p>
+<div>
+    <div>
+        <label>Language:</label>
+        <label th:text="${show.getLanguages()}"></label>
+    </div>
+    <div>
+        <label>Page Size:</label>
+        <label th:text="${show.getPageSize()}"></label>
+    </div>
+    <div >
+        <label>Spams Filter:</label>
+        <label th:text="${show.getSpamsFilter()}"></label>
+    </div>
+    <div >
+        <label>Signature:</label>
+        <label th:text="${show.getSignature()}"></label>
+    </div>
+</div>
+</body>
+</html>

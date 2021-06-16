@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="head">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Spring Customer</title>
+
+    <style type="text/css">
+        body {
+            font-family: 'lato', sans-serif;
+        }
+        .container {
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        h2 {
+            font-size: 26px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        small {
+            font-size: 0.5em;
+        }
+
+
+        li {
+            border-radius: 3px;
+            padding: 25px 30px;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 25px;
+        }
+        .table-header {
+            background-color: #95A5A6;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+        }
+        .table-row {
+            background-color: #ffffff;
+            box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+        }
+        .col-1 {
+            flex-basis: 10%;
+        }
+        .col-2 {
+            flex-basis: 40%;
+        }
+        .col-3 {
+            flex-basis: 25%;
+        }
+        .col-4 {
+            flex-basis: 25%;
+        }
+
+        @media all and (max-width: 767px) {
+            .table-header {
+                display: none;
+            }
+
+            .table-row {
+
+            }
+
+            li {
+                display: block;
+            }
+
+            .col {
+
+                flex-basis: 100%;
+
+            }
+
+            .col {
+                display: flex;
+                padding: 10px 0;
+            }
+        }
+
+        /*button*/
+        #btn {
+            margin-left: 40px;
+            background: #222;
+            height: 50px;
+            width: 153px;
+            border: none;
+            border-radius: 10px;
+            color: #000000;
+            font-size: 28px;
+            position: relative;
+            transition: 1s;
+            -webkit-tap-highlight-color: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            padding-top: 5px;
+        }
+
+        #btn #circle {
+            width: 5px;
+            height: 5px;
+            background: transparent;
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            overflow: hidden;
+            transition: 500ms;
+        }
+
+        .noselect {
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        #btn:hover {
+            background: transparent;
+        }
+
+        #btn:hover #circle {
+            height: 50px;
+            width: 150px;
+            left: 0;
+            border-radius: 0;
+            border-bottom: 2px solid #eee;
+        }
+
+
+        a{
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+
+<footer th:fragment="footer">
+    &copy; 2021 CodeGym
+</footer>
+</body>
+</html>
