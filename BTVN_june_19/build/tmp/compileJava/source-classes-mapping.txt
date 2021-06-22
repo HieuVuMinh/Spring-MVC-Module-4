@@ -1,0 +1,32 @@
+com/codegym/model/Category.java
+ com.codegym.model.Category
+com/codegym/repository/IGeneralRepository.java
+ com.codegym.repository.IGeneralRepository
+com/codegym/service/category/ICategoryService.java
+ com.codegym.service.category.ICategoryService
+com/codegym/repository/product/IProductRepository.java
+ com.codegym.repository.product.IProductRepository
+com/codegym/repository/category/ICategoryRepository.java
+ com.codegym.repository.category.ICategoryRepository
+com/codegym/service/product/IProductService.java
+ com.codegym.service.product.IProductService
+com/codegym/service/category/CategoryService.java
+ com.codegym.service.category.CategoryService
+com/codegym/controller/category/CategoryController.java
+ com.codegym.controller.category.CategoryController
+com/codegym/service/IGeneralService.java
+ com.codegym.service.IGeneralService
+com/codegym/repository/category/CategoryRepository.java
+ com.codegym.repository.category.CategoryRepository
+com/codegym/repository/product/ProductRepository.java
+ com.codegym.repository.product.ProductRepository
+com/codegym/configuration/AppInit.java
+ com.codegym.configuration.AppInit
+com/codegym/configuration/AppConfig.java
+ com.codegym.configuration.AppConfig
+com/codegym/service/product/ProductService.java
+ com.codegym.service.product.ProductService
+com/codegym/model/Product.java
+ com.codegym.model.Product
+com/codegym/controller/product/ProductController.java
+ com.codegym.controller.product.ProductController
