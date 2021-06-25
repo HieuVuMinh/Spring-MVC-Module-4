@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e09a1960-98e3-4978-995b-73c00fe039cc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_19/src/main/java/com/codegym/exception/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_19/src/main/java/com/codegym/fomatter/CategoryFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_19/src/main/webapp/WEB-INF/views/product/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_19/src/main/webapp/WEB-INF/views/product/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_19/src/main/webapp/WEB-INF/views/product/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_22/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_22/.gradle/6.8/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_22/.gradle/6.8/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_22/.gradle/6.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_22/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_22/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_22/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_22/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_22/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_22/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_22/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_22/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_22/.idea/libraries-with-intellij-classes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_22/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_22/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_22/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_22/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_22/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_22/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_22/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_22/src/main/java/com/codegym/configuration/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_22/src/main/java/com/codegym/configuration/AppInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_22/src/main/java/com/codegym/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_22/src/main/java/com/codegym/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_22/src/main/java/com/codegym/model/category/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_22/src/main/java/com/codegym/model/customer/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_22/src/main/java/com/codegym/repository/ICategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_22/src/main/java/com/codegym/repository/ICustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_22/src/main/java/com/codegym/service/Category/CategoeyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_22/src/main/java/com/codegym/service/Category/ICategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_22/src/main/java/com/codegym/service/Customer/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_22/src/main/java/com/codegym/service/Customer/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_22/src/main/java/com/codegym/service/IGeneralService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_22/src/main/webapp/WEB-INF/views/category/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_22/src/main/webapp/WEB-INF/views/category/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_22/src/main/webapp/WEB-INF/views/category/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_22/src/main/webapp/WEB-INF/views/customer/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_22/src/main/webapp/WEB-INF/views/customer/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_22/src/main/webapp/WEB-INF/views/customer/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BTVN_june_22/src/main/webapp/WEB-INF/views/customer/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../[Thuc hanh] Bo sung aspect log/customer-management/src/main/java/cg/wbd/grandemonstration/exception/DuplicateEmailException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/[Thuc hanh] Ung dung Quan ly khach hang Quan ly tinh.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_june_19/.gradle/7.0/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../BTVN_june_19/.gradle/7.0/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_june_19/.gradle/7.0/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../BTVN_june_19/.gradle/7.0/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_june_19/.gradle/7.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../BTVN_june_19/.gradle/7.0/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_june_19/.gradle/7.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../BTVN_june_19/.gradle/7.0/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_june_19/.gradle/7.0/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../BTVN_june_19/.gradle/7.0/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_june_19/.gradle/7.0/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../BTVN_june_19/.gradle/7.0/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_june_19/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../BTVN_june_19/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_june_19/build/classes/java/main/com/codegym/configuration/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BTVN_june_19/build/classes/java/main/com/codegym/configuration/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_june_19/build/classes/java/main/com/codegym/controller/product/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BTVN_june_19/build/classes/java/main/com/codegym/controller/product/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_june_19/build/classes/java/main/com/codegym/model/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BTVN_june_19/build/classes/java/main/com/codegym/model/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_june_19/build/classes/java/main/com/codegym/repository/IGeneralRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_june_19/build/classes/java/main/com/codegym/repository/category/CategoryRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_june_19/build/classes/java/main/com/codegym/repository/category/ICategoryRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_june_19/build/classes/java/main/com/codegym/repository/product/IProductRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_june_19/build/classes/java/main/com/codegym/repository/product/ProductRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_june_19/build/classes/java/main/com/codegym/service/IGeneralService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BTVN_june_19/build/classes/java/main/com/codegym/service/IGeneralService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_june_19/build/classes/java/main/com/codegym/service/category/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BTVN_june_19/build/classes/java/main/com/codegym/service/category/CategoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_june_19/build/classes/java/main/com/codegym/service/product/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BTVN_june_19/build/classes/java/main/com/codegym/service/product/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_june_19/build/libs/BTVN_june_19-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../BTVN_june_19/build/libs/BTVN_june_19-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_june_19/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../BTVN_june_19/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_june_19/src/main/java/com/codegym/configuration/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BTVN_june_19/src/main/java/com/codegym/configuration/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_june_19/src/main/java/com/codegym/controller/product/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BTVN_june_19/src/main/java/com/codegym/controller/product/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_june_19/src/main/java/com/codegym/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BTVN_june_19/src/main/java/com/codegym/model/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_june_19/src/main/java/com/codegym/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BTVN_june_19/src/main/java/com/codegym/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_june_19/src/main/java/com/codegym/repository/IGeneralRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_june_19/src/main/java/com/codegym/repository/category/CategoryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_june_19/src/main/java/com/codegym/repository/category/ICategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BTVN_june_19/src/main/java/com/codegym/repository/ICategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_june_19/src/main/java/com/codegym/repository/product/IProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BTVN_june_19/src/main/java/com/codegym/repository/IProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_june_19/src/main/java/com/codegym/repository/product/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_june_19/src/main/java/com/codegym/service/IGeneralService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BTVN_june_19/src/main/java/com/codegym/service/IGeneralService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_june_19/src/main/java/com/codegym/service/category/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BTVN_june_19/src/main/java/com/codegym/service/category/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_june_19/src/main/java/com/codegym/service/product/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BTVN_june_19/src/main/java/com/codegym/service/product/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_june_19/src/main/webapp/WEB-INF/views/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../BTVN_june_19/src/main/webapp/WEB-INF/views/product/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BTVN_june_19/src/main/webapp/WEB-INF/views/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../BTVN_june_19/src/main/webapp/WEB-INF/views/product/list.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1uITwzncJUDNOW35RON9VCMBUbL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e09a1960-98e3-4978-995b-73c00fe039cc" name="Default Changelist" comment="" />
+      <created>1624352347127</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624352347127</updated>
+      <workItem from="1624352349128" duration="49000" />
+      <workItem from="1624352430762" duration="8000" />
+      <workItem from="1624353664245" duration="46000" />
+      <workItem from="1624437739483" duration="42000" />
+      <workItem from="1624438195676" duration="46000" />
+      <workItem from="1624438531083" duration="21000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -3,21 +3,23 @@ package com.codegym.service.category;
 import com.codegym.model.Category;
 import com.codegym.repository.category.ICategoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
-import java.util.List;
+import java.util.Optional;
 
+@Service
 public class CategoryService implements ICategoryService{
     @Autowired
     private ICategoryRepository categoryRepository;
 
     @Override
-    public List<Category> findAll() {
+    public Iterable<Category> findAll() {
         return categoryRepository.findAll();
     }
 
     @Override
-    public Category findByID(Long id) {
-        return categoryRepository.findByID(id);
+    public Optional<Category> findByID(Long id) {
+        return categoryRepository.findById(id);
     }
 
     @Override
@@ -27,6 +29,6 @@ public class CategoryService implements ICategoryService{
 
     @Override
     public void remove(Long id) {
-        categoryRepository.remove(id);
+        categoryRepository.deleteById(id);
     }
 }

@@ -9,7 +9,6 @@ import org.springframework.web.servlet.ModelAndView;
 
 import java.util.Optional;
 
-@Controller
 @RequestMapping("/categories")
 public class CategoryController {
     @Autowired

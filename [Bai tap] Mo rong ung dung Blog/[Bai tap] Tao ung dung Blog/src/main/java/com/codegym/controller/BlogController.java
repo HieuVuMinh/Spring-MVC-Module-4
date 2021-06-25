@@ -11,7 +11,6 @@ import org.springframework.web.servlet.ModelAndView;
 
 import java.util.Optional;
 
-@Controller
 @RequestMapping("/blog")
 public class BlogController {
 

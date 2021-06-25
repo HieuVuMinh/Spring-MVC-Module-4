@@ -1,7 +1,9 @@
 package com.codegym.repository.category;
 
 import com.codegym.model.Category;
-import com.codegym.repository.IGeneralRepository;
+import org.springframework.data.repository.PagingAndSortingRepository;
+import org.springframework.stereotype.Repository;
 
-public interface ICategoryRepository extends IGeneralRepository<Category> {
+@Repository
+public interface ICategoryRepository extends PagingAndSortingRepository<Category,Long> {
 }

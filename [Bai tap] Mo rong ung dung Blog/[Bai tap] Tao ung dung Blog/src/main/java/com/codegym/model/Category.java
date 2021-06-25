@@ -11,16 +11,12 @@ public class Category {
     private Long idCategory;
     private String nameCategory;
 
-    @OneToMany(targetEntity = BlogWeb.class)
-    private List<BlogWeb> blogWebs;
-
     public Category() {
     }
 
-    public Category(Long idCategory, String nameCategory, List<BlogWeb> blogWebs) {
+    public Category(Long idCategory, String nameCategory) {
         this.idCategory = idCategory;
         this.nameCategory = nameCategory;
-        this.blogWebs = blogWebs;
     }
 
     public Long getIdCategory() {
@@ -37,14 +33,6 @@ public class Category {
 
     public void setNameCategory(String nameCategory) {
         this.nameCategory = nameCategory;
-    }
-
-    public List<BlogWeb> getBlogWebs() {
-        return blogWebs;
-    }
-
-    public void setBlogWebs(List<BlogWeb> blogWebs) {
-        this.blogWebs = blogWebs;
     }
 
     @Override
